@@ -64,6 +64,7 @@ module('Acceptance | super rentals', function(hooks) {
 
     await click('nav a.menu-contact');
     assert.equal(currentURL(), '/getting-in-touch');
+    await click('nav a.menu-index');
     assert.equal(currentURL(), '/');
   });
 });
