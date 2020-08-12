@@ -18,4 +18,3 @@ export default class MapComponent extends Component {
   }
 }
 
-// this is an SSH test
