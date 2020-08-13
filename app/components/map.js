@@ -17,3 +17,5 @@ export default class MapComponent extends Component {
     return encodeURIComponent(ENV.MAPBOX_ACCESS_TOKEN);
   }
 }
+
+// this is an SSH test
